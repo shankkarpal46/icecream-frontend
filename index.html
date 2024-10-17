@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icecream Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script src="https://kit.fontawesome.com/04c19591e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fa fa-untensils"></i>ice.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#about">About</a>
+            <a href="#ice">Ice</a>
+            <a href="#review">Review</a>
+            <a href="#order">Order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fa-solid fa-bars" id="bars"></i>
+            <i class="fa-solid fa-magnifying-glass" id="search"></i>
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="fa-solid fa-cart-shopping"></a>
+        </div>
+    </header>
+    <!-- End of header -->
+
+    <section class="home" id="home">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Icecream</span>
+                        <h3>French Icecream</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, cupiditate libero consequatur et natus adipisci. Obcaecati, quia ducimus labore possimus id sed nam nobis magnam, cumque exercitationem perspiciatis nihil quis?
+                        </p>
+                        <a href="" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./img/gettyimages-157472912-612x612.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Icecream</span>
+                        <h3>French Icecream</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, cupiditate libero consequatur et natus adipisci. Obcaecati, quia ducimus labore possimus id sed nam nobis magnam, cumque exercitationem perspiciatis nihil quis?
+                        </p>
+                        <a href="" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./img/gettyimages-157472912-612x612.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Icecream</span>
+                        <h3>French Icecream</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, cupiditate libero consequatur et natus adipisci. Obcaecati, quia ducimus labore possimus id sed nam nobis magnam, cumque exercitationem perspiciatis nihil quis?
+                        </p>
+                        <a href="" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./img/gettyimages-157472912-612x612.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination">
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container',{
+        pagination:{
+            el:'.swiper-pagination',
+        },
+    });
+
+</script>

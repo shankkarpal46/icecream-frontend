@@ -96,11 +96,11 @@ section:nth-child(even){
     flex-wrap: wrap;
     gap: 2rem;
     padding-top: 9rem;
+    margin-right: 12rem;
 }
 
 .home .home-slider .slide .content{
     flex: 1 1 45rem;
-    
 }
 
 .home .home-slider .slide .image{
@@ -138,6 +138,27 @@ section:nth-child(even){
     border-radius: .5rem;
     cursor: pointer;
     padding: .8rem 3rem;
+}
+
+.swiper-pagination-bullet{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 5px;
+    font-size: 15px;
+    opacity: 1;
+    background: rgba(0,0,0,.2);
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.swiper-pagination-bullet-active{
+    color: #fff;
+    background: #007aff;
+
 }
 
 /* code for repsonsive  */
